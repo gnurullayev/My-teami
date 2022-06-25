@@ -448,6 +448,15 @@ body{
     text-decoration: none;
 }
 
+.footer .footer_left .footer_nav_list .footer_nav_link svg{
+    transition: all .4s linear;
+}
+
+.footer .footer_left .footer_nav_list .footer_nav_link svg:hover fill{
+    transition: all .4s linear;
+    color: #F67E7E;
+}
+
 
 
 .footer .footer_list{
@@ -464,6 +473,8 @@ body{
     opacity: 0.6;
 }
 
+
+
 .footer .footer_right{
     max-width: 255px;
     text-align: right;
@@ -477,6 +488,15 @@ body{
 
 .footer .footer_right .social_networks .social_network{
    margin-left: 16px;
+}
+
+.footer .footer_right .social_networks .social_network .social_network_link .social_net{
+    transition: all .4s linear;
+}
+
+.footer .footer_right .social_networks .social_network .social_network_link .social_net:hover path{
+    transition: all .4s linear;
+  fill: #F67E7E;
 }
 
 
