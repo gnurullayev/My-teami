@@ -496,7 +496,7 @@ body{
 
 .footer .footer_right .social_networks .social_network .social_network_link .social_net:hover path{
     transition: all .4s linear;
-  fill: #F67E7E;
+    fill: #F67E7E;
 }
 
 
