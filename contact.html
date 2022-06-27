@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>My team</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/contact/contact-style/contact.css">
 </head>
 <body>
-
+    
     <header class="header">
         <div class="container">
             <div class="content">
@@ -27,107 +28,50 @@
                             <a href="./about.html" class="nav_link">about</a>
                         </li>                       
                     </ul>
-                    <a href="contact.html" class="contact-us">contact us</a>
+                    <a href="" class="contact-us">contact us</a>
                 </div>
                 <div class="menu"><i class='bx bx-menu'></i></div>
             </div>
         </div>
     </header>
-
     <main class="main">
-        <section class="section_1">
+
+        <section class="contact">
             <div class="container">
-                <div class="content">
-                    <img class="section_img" src="./imgs/Group 8.png" alt="">
-                    <img class="section_bottom_img" src="./imgs/sectionimg2.png" alt="">
-                    <h2 class="section_titel">
-                        Find the best <span class="titel_quote">talent</span>
-                    </h2>
-                    <p class="section_text">
-                        Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.
-                    </p>
+                <div class="contact__inner">
+                    <div class="contact__info">
+                        <h2 class="contact__heading">Contact</h2>
+                        <p class="contact__us">Ask us about</p>
+                        <ul class="contact__list">
+                            <li class="contact__item contact__item--img1">The quality of our talent network</li>
+                            <li class="contact__item contact__item--img2">Usage & implementation of our software</li>
+                            <li class="contact__item contact__item--img3">How we help drive innovation</li>
+                        </ul>
+                    </div>
+                    <form class="contact__form" action="https://echo.htmlacademy.ru" method="post">
+                        <label class="contact__form-label" for="name">
+                            <input class="contact__form-control"  id="name"  type="text"  placeholder="Namre" value="" required>
+                        </label>
+                        <label class="contact__form-label" for="email">
+                            <input class="contact__form-control" name="email" id="email"  type="email"  placeholder="Email Address" value="" required>
+                        </label>
+                        <label class="contact__form-label" for="Company-Name">
+                            <input class="contact__form-control" name="Company-Name" id="Company-Name"  type="text"  placeholder="Company Name" value="" required>
+                        </label>
+                        <label class="contact__form-label"  for="titel">
+                            <input class="contact__form-control" name="titel" id="titel"  type="text"  placeholder="Title" value="" required>
+                        </label>
+                        <label class="contact__form-label" for="message">
+                            <textarea class="contact__form-control contact__form-message" name="message" id="message" placeholder="Message" required></textarea>
+                        </label>
+
+                        <button class="contact__button" type="submit">submit</button>
+                      
+                    </form>
                 </div>
             </div>
         </section>
 
-        <section class="teams">
-            <div class="container">
-                <div class="teams_content">
-                    <img class="bacground_img"  src="/imgs/section2-img.png" alt="section2 img">
-                    <h3 class="teams_titel">Build & manage distributed teams like no one else.</h3>
-                    <ul class="teams_list">
-                        <li class="teams_item">
-                            <img src="/imgs/Individuals.png" alt="Individuals">
-                            <h4 class="titel">Experienced Individuals</h4>
-                            <p class="text"> 
-                                Our network is made up of highly experienced professionals who are passion ate about what they do.
-                            </p>
-                        </li>
-
-                        <li class="teams_item">
-                            <img src="/imgs/Implement.png" alt="Implement">
-                            <h4 class="titel">Experienced Individuals</h4>
-                            <p class="text"> 
-                                Our network is made up of highly experienced professionals who are passion ate about what they do.
-                            </p>
-                        </li>
-
-                        <li class="teams_item">
-                            <img src="/imgs//Productivity.png" alt="">
-                            <h4 class="titel">Experienced Individuals</h4>
-                            <p class="text"> 
-                                Our network is made up of highly experienced professionals who are passion ate about what they do.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="stories">
-            <div class="container">
-                <div class="stories_content">
-                    <h3 class="stories_titel">
-                        Delivering real results for top companies. Some of our <span class="stories_span"> success stories.</span>
-                    </h3>
-                    <ul class="stories_list">
-                        <li class="stories_item">
-                            <blockquote class="sotorises_blocuote">
-                                “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”
-                            </blockquote>
-                            <p class="stories_name">Kady Baker</p>
-                            <p class="stories_position">Product Manager at Bookmark</p>
-                            <img src="/imgs/Kady-baker.png" alt="Kady Baker" width="62" height="62" class="stories_img">
-                        </li>
-                        <li class="stories_item">
-                            <blockquote class="sotorises_blocuote">
-                                “We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”
-                            </blockquote>
-                            <p class="stories_name">Aiysha Reese</p>
-                            <p class="stories_position">Founder of Manage</p>
-                            <img src="/imgs/Aiysha-reese.png" alt="Aiysha Reese" width="62" height="62" class="stories_img">
-                        </li>
-                        <li class="stories_item">
-                            <blockquote class="sotorises_blocuote">
-                                “Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”
-                            </blockquote>
-                            <p class="stories_name">Arthur Clarke</p>
-                            <p class="stories_position">Co-founder of MyPhysio</p>
-                            <img  src="/imgs/Arthur-clarke.png" alt="Arthur Clarke" width="62" height="62" class="stories_img">
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="started">
-            <div class="container">
-                <div class="started_content">
-                    <p class="started_text">Ready to get started?</p>
-                    <a class="started_contact" href="">contact us</a>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer class="footer">
@@ -188,8 +132,5 @@
             </div>
         </div>
     </footer>
-
-
-
 </body>
 </html>

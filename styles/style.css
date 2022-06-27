@@ -29,7 +29,6 @@ body{
 
 .header{
     background: #014E56;
-    /* min-height: 700px; */
     padding-top: 73px;
     overflow: hidden;
 }
@@ -39,7 +38,6 @@ body{
     height: 48px;
     display: flex;
     align-items: center;
-    /* border: 2px solid rgb(9, 255, 0); */
 }
 
 .header .content .logo{
@@ -75,7 +73,7 @@ body{
     color: #F67E7E;
 }
 
-.header .content .navbor .contact{
+.header .content .navbor .contact-us{
     width: 153px;
     height: 48px;
     padding: 9px 0 11px 0;
@@ -87,7 +85,7 @@ body{
     text-decoration: none;
 }
 
-.header .content .navbor .contact:hover{
+.header .content .navbor .contact-us:hover{
     transition: all .4s linear;
     background: #FFFFFF;
     color: #002529;
@@ -100,7 +98,6 @@ body{
 .section_1{
     width: 100%;
     height: auto;
-    /* border: 2px solid green; */
     background: #014E56;
     padding-top: 139px;
     position: relative;
@@ -111,7 +108,6 @@ body{
     padding-top: 139px;
     display: flex;
     justify-content: space-between;
-    /* overflow: hidden; */
 }
 
 .section_1 .content .section_img{
@@ -140,7 +136,6 @@ body{
 }
 
 .section_1 .content .section_text{
-    /* margin-top: 70px; */
     max-width: 445px;
     font-size: 18px;
     line-height: 28px;
@@ -211,11 +206,9 @@ body{
 
 .teams .teams_content  .teams_list{
     padding-top: 26px;
-    /* border: 2px solid red; */
 }
 
 .teams .teams_content  .teams_list .teams_item{ 
-    /* width: 100%; */
     margin-top: 32px;
     max-width: 445px;
     position: relative;
@@ -256,7 +249,6 @@ body{
     height: 100px;
     background-image: url(/imgs/stories-img1.png);
     background-size: cover;
-    /* border: 1px solid red; */
     position: absolute;
     top: 0;
     left: 0;
@@ -269,7 +261,6 @@ body{
     height: 100px;
     background-image: url(/imgs/stories-img2.png);
     background-size: cover;
-    /* border: 1px solid red; */
     position: absolute;
     bottom: 0;
     right: 0;
@@ -499,60 +490,7 @@ body{
     fill: #F67E7E;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1380px){
-         
-}
-
-
-
-
-
-
-
-
-@media (max-width:1400px){
+@media (max-width:1322px){
 
     .section_1{
         padding-top: 122px;
@@ -579,7 +517,6 @@ body{
     }
     
     .section_1 .content .section_text{
-        /* margin-top: 70px; */
         max-width: 445px;
         font-size: 18px;
         line-height: 28px;
@@ -615,7 +552,6 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-between; */
     }
 
         
@@ -669,8 +605,6 @@ body{
         font-size: 32px;
         line-height: 32px;
         padding: 0 40px;
-        /* border: 1px solid red; */
-      
     }
     
     .stories .stories_content .stories_titel .stories_span{
@@ -710,7 +644,6 @@ body{
        text-align: center;
        margin: 0 auto;
        margin-bottom: 16px;
-       /* border: 1px solid red; */
     }
     
     .stories .stories_content  .stories_list .stories_item .stories_img{
